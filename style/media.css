@@ -1,0 +1,309 @@
+@media (max-width:1140px) {
+    .word__2,.word{
+        text-align: center;
+    }
+    .airpod {
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 100px;
+    }
+
+    .word__3 {
+        text-align: center;
+        max-width: 500px;
+        width: 100%;
+    }
+    .line{
+        display: none;
+    }
+    .dedsign{
+        margin-top: 20px;
+        text-align: center;
+        max-width: 500px;
+        width: 100%;
+    }
+
+
+    .dedsign {
+        text-align: center;
+    }
+    .social{
+        gap: 10px;
+        display: flex;
+    }
+    .catigori{
+        max-width: 460px;
+        width: 100%;
+        gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+}
+
+@media (max-width:1000px) {
+    .word__2,.word,.word__3,.dedsign {
+        text-align: center;
+        font-size: 19px;
+        max-width: 700px;
+        width: 100%;
+    }
+    .social{
+        gap: 10px;
+        display: flex;
+    }
+    .end__list {
+        align-items: center;
+    }
+    .end__item {
+        justify-content: center;
+    }
+    .nav__list{
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        left: -200px;
+        background-color: #282828;
+        padding: 50px;
+        align-items: center;
+        height: 100vh;
+        transition: 0.5s;
+    }
+    .nav__link{
+        color: #fff;
+    }
+    .menu,.close{
+        display: block;
+    }
+    .close{
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+    .menu:focus ~ .nav__list{
+        left: 0;
+    }
+    .menu{
+        order: -1;
+    }
+    .nav__input{
+        display: none;
+    }
+}
+@media(max-width:1000px) {
+    .word{
+        margin-top: 10px;
+    }
+    .intro{
+        height: 650px;
+    }
+}
+@media(max-width:850px) {
+    .airphones,.airphones__2{
+        width: 380px;
+    }
+    .header {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .nav__list{
+        position: absolute;
+        flex-direction: column;
+        background-color: #282828;
+        text-align: center;
+        padding: 50px;
+        top: 0;
+        height: 100vh;
+        left: -220px;
+        transition: 0.5s;
+        z-index: 99;
+    }
+    .nav {
+        padding: 15px 0;
+    }
+    .menu {
+        display: block;
+
+    }
+    .close {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        display: block;
+    }
+    .menu:focus~.nav__list {
+        left: 0;
+    }
+    .close:focus~.nav__list {
+        left: -220px;
+    }
+    .nav__link {
+        padding: 15px 10px;
+    }
+    .air {
+        height: 450px;
+    }
+}
+@media(max-width:800px) {
+  
+    .intro{
+        height: 450px;
+    }
+    .dedsign{
+        line-height: 20px;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden
+    }
+    .nav{
+        padding: 15px 0;
+    }
+
+    .airphones,.airphones__2{
+        width: 250px;
+    }
+    .word{
+        font-size: 17px;
+        line-height: 15px;
+        text-align: center;
+        max-width: 578px;
+        width: 100%;
+        padding-top: 10px; 
+    }
+    .word__2,.word__2,.word__3,.dedsign{
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        max-width: 578px;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .airphones__3{
+        width: 200px;
+    }
+
+    .air__title{
+       font-size: 50px;
+    }
+    .air__link{
+       text-align: center;
+       font-size: 15px;
+       width: 170px;
+       height: 40px;
+    }
+    .word__2{
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width:700px) {
+    .word{
+        list-style: none;
+        text-align: center;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden
+        
+    }
+    .airphones,.airphones__2{
+        width: 200px;
+    }
+    .airphones__3{
+        width: 150px;
+    }
+    .word{
+        font-size: 15px;
+    }
+}
+@media (max-width:600px) {
+    .word__2,.word,.word__3,.dedsign {
+        line-height: 20px;
+        max-width: 400px;
+        width: 100%;
+      }
+     .catigori{
+        display: flex;
+        overflow-x: scroll;
+        padding-bottom: 10px;
+    
+    }    .footer__box::-webkit-scrollbar,
+
+     .catigori::-webkit-scrollbar{
+        height: 5px;
+    }
+    .catigori::-webkit-scrollbar-thumb{
+        background-image: linear-gradient(to left, white, black);
+        border-radius: 30px;
+    
+    }
+    .airphones,.airphones__2{
+        width: 250px;
+    }
+    .airphones__3{
+        width: 150px;
+    }
+    .word,.word__2,.word__3,.dedsign{
+        font-size: 15px;
+    }
+    .word{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden
+    }
+    .end{
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+}
+
+@media(max-width:500px) {
+    .end{
+        padding: 15px 0;
+    }
+    .end__box{
+        flex-direction: column;
+    }
+    .end__list{
+        margin-top: 10px;
+        
+    }
+    .vise{
+        margin-top: 20px;
+    }
+    .air__title{
+        font-size: 40px;
+
+    }
+    .airphones,.airphones__2{
+        width: 250px;
+    }
+    .airphones__3{
+        width: 150px;
+    }
+    .word,.word__2,.word__3,.dedsign{
+        font-size: 14px;
+    }
+    .word{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden
+    }
+    .nav__logo{
+        align-items: center;
+    }
+    .word__2{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden
+
+    }
+}
